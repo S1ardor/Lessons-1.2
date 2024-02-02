@@ -1,0 +1,132 @@
+*,
+*::before *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #F1C69E;
+    font-family: sans-serif;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.pokemon__card {
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+.form__control {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.inp__search {
+    max-width: 600px;
+    width: 100%;
+    padding: 11px;
+    border: none;
+    border-radius: 6px;
+    font-size: 18px;
+    line-height: 22px;
+    transition: all 0.4s ease;
+}
+
+.inp__search:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 1px 7px rgba(255, 235, 205, 0.87);
+    -webkit-box-shadow: 0px 0px 1px 7px rgba(255, 235, 205, 0.87);
+    -moz-box-shadow: 0px 0px 1px 7px rgba(255, 235, 205, 0.87);
+}
+
+.choice__chance {
+    max-width: 250px;
+    width: 100%;
+    padding: 11px;
+    border: none;
+    border-radius: 6px;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.btn {
+    max-width: 100px;
+    width: 100%;
+    padding: 11px;
+    border: none;
+    border-radius: 6px;
+    font-size: 18px;
+    line-height: 22px;
+    transition: all 0.4s ease;
+}
+
+.btn:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.btn:active {
+    transform: scale(0.9);
+}
+
+.pokemons__text {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+    padding: 0;
+    row-gap: 40px;
+}
+
+.poke__word-img {
+    display: flex;
+    margin: 0 auto;
+}
+
+.list__control {
+    max-width: 250px;
+    width: 100%;
+    list-style: none;
+    border-radius: 10px;
+    background-color: blanchedalmond;
+    transition: all 0.4s ease;
+}
+
+.list__control:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 20px 8px rgba(0, 0, 0, 0.26);
+}
+
+.poke__num {
+    border: 2px solid gold;
+    padding: 5px;
+    background-color: gold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #fff;
+    position: absolute;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.poke__img {
+    width: 100%;
+    display: inline-block;
+}
+
+.poke__name {
+    text-align: center;
+    border-top: 2px solid #F1C69C;
+    padding-top: 10px;
+    margin: 0;
+}
+
+.pokemn__tupe {
+    text-align: center;
+}

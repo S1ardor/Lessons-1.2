@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Lesson-1.2</title>
+        <link rel="stylesheet" href="./main.css">
+    </head>
+    <body>
+
+        <section>
+            <div class="container">
+                <div class="pokemons__control">
+                    <img class="poke__word-img" src="./images/Logo.png"
+                        alt="poke img">
+                    <div class="pokemon__card">
+                        <form class="form__control js-form">
+                            <input class="inp__search js-input" type="text"
+                                placeholder="Enter poke..."
+                                aria-label="Enter poke...">
+                            <select class="choice__chance">
+                                <option value="poke" disabled selected>pokemons</option>
+                                <option value="poke">id</option>
+                                <option value="poke">name</option>
+                                <option value="poke">type</option>
+                            </select>
+                            <button class="btn js-button">click</button>
+                        </form>
+                    </div>
+                    <ul class="pokemons__text js-text">
+
+                    </ul>
+                </div>
+            </div>
+            <template class="js-template">
+                <li class="list__control js-list">
+                    <time class="poke__num js-pokeNum">time</time>
+                    <img class="poke__img js-pokeImg" src
+                        alt="poke__img">
+                    <h3 class="poke__name js-pokeName">name</h3>
+                    <p class="pokemn__tupe js-pokeType">type</p>
+                </li>
+            </template>
+        </section>
+
+        <script src="./pokemons.js"></script>
+        <script src="./script.js"></script>
+    </body>
+</html>
